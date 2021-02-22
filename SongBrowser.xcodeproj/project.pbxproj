@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C3A620925E410DC0070DB6F /* SimpleListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A620825E410DC0070DB6F /* SimpleListItemView.swift */; };
 		8CD4E9B525E158DD00546797 /* SongBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4E9B425E158DD00546797 /* SongBrowserApp.swift */; };
 		8CD4E9B725E158DD00546797 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4E9B625E158DD00546797 /* ContentView.swift */; };
 		8CD4E9B925E158EB00546797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD4E9B825E158EB00546797 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C3A620825E410DC0070DB6F /* SimpleListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListItemView.swift; sourceTree = "<group>"; };
 		8CD4E9B125E158DC00546797 /* SongBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD4E9B425E158DD00546797 /* SongBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongBrowserApp.swift; sourceTree = "<group>"; };
 		8CD4E9B625E158DD00546797 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,8 +81,9 @@
 		8CD4E9C725E15DCA00546797 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8CD4E9B625E158DD00546797 /* ContentView.swift */,
 				8CD4E9C425E159B600546797 /* SearchBarView.swift */,
+				8CD4E9B625E158DD00546797 /* ContentView.swift */,
+				8C3A620825E410DC0070DB6F /* SimpleListItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				8CD4E9CD25E15E9800546797 /* SearchResult.swift in Sources */,
 				8CD4E9C525E159B600546797 /* SearchBarView.swift in Sources */,
 				8CD4E9B525E158DD00546797 /* SongBrowserApp.swift in Sources */,
+				8C3A620925E410DC0070DB6F /* SimpleListItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
