@@ -49,7 +49,7 @@ struct ContentView: View {
             // to uniquely identify each song
                 List(songs, id: \.trackId) { currentSong in
                 
-                    SimpleListItemView(Title: currentSong.trackName,
+                    SimpleListItemView(title: currentSong.trackName,
                                        caption: currentSong.artistName)
                 }
                 
